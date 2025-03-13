@@ -45,7 +45,7 @@ function calcularMedia()
     let resultado = document.getElementById("resultado");
     
 
-    if (nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2) 
+    if (nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2 > 10) 
     {
         alert("As notas devem ser entre zero ou dez")
     }
@@ -55,11 +55,11 @@ function calcularMedia()
         {
        resultado.innerHTML = "Média: " + media + ", VOCÊ ESTÁ REPROVADO"
         }    
-        else if (media < 6)
+        else if (media >2 || media <6)
         {
             resultado.innerHTML = "Média: " + media + ", VOCÊ DEVERÁ FAZER EXAME DE RECUPERAÇÃO"
         }
-        else (media > 6)
+        if (media > 6)
         {
             resultado.innerHTML = "Média: " + media + ", VOCÊ ESTÁ APROVADO"
         }
