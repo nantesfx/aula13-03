@@ -1,0 +1,23 @@
+h1 {
+    color: #AD5E65;
+}
+
+h2{
+    color: black;
+}
+
+body {
+    text-align: center;
+    background-color: #636969;
+    font-family: verdana;
+    font-weight: 900;
+}
+p {
+    font-size: 20px;
+    color: white;
+}
+#resultado
+{
+    font-size: 40px;
+    color: cyan
+}
